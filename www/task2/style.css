@@ -1,0 +1,40 @@
+h1, h2, h3, h4 {
+    margin: 3px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.product {
+    width: 300px;
+    border: 1px solid black;
+    margin: 12px;
+    padding: 12px;
+}
+.product h4 {
+    margin-bottom: 18px;
+}
+
+.product__label_block {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.product__label_block>label {
+    display: flex;
+}
+.product__label_block>label>span {
+    display: block;
+    width: 35%;
+}
+
+.product__label_block>label>input {
+    width: 65%;
+}
+
+.arrow__back{
+    font-size: 22px;
+    color: green;
+    text-decoration: none;
+}

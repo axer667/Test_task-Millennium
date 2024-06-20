@@ -1,0 +1,18 @@
+h1, h2, h3, h4 {
+    margin: 3px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.order li {
+    margin-bottom: 6px;
+    padding: 12px;
+}
+
+.arrow__back{
+    font-size: 22px;
+    color: green;
+    text-decoration: none;
+}

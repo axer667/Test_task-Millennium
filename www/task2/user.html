@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="RU">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Create products</title>
+</head>
+<body>
+<a href="/" class="arrow__back">⬅</a>
+<main class="container" id="main_content">
+    <form id="form__products">
+        <section class="products">
+            <div class="product">
+                <h4>Новый товар:</h4>
+                <div class="product__label_block">
+                    <label>
+                        <span>
+                            Название:
+                        </span>
+                        <input class="product__title" type="text" required />
+                    </label>
+                </div>
+                <div class="product__label_block">
+                    <label>
+                        <span>
+                        Цена:
+                        </span>
+                        <input class="product__price" type="number" step="any" required />
+                    </label>
+                </div>
+            </div>
+        </section>
+        <button type="button" id="add_product"> + </button>
+        <button type="submit">Создать</button>
+    </form>
+</main>
+</body>
+<script src="script.js" type="module"></script>
+</html>
